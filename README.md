@@ -19,7 +19,7 @@ The NRG consists of the following key steps:
 
 ## About the code
 This is a relatively simple code in MATLAB that implements the NRG for a flat band (constant density of states). The z-component of the total spin (S_z) and the total charge (Q) can be treated as good quantum numbers. This can be used to block-diagonalize the Hamiltonian matrix for computational efficiency.
-The main function that runs the code is NRG(). For details on code usage, input parameters, and other features, please see the file 'Readme.txt'.
+The main function that runs the code is NRG(). **For details on code usage, input parameters, and other features, please see the file 'Readme.txt'.**
 The code can be used to treat three models:
 * The spin 1/2 Kondo model wiht 1 impurity,
 * The Anderson Impurity model with 1 impurity,
