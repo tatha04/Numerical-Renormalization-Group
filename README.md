@@ -18,6 +18,7 @@ The NRG consists of the following key steps:
 * Iterative diagonalization of the WC, where an additional site of the WC is added in each iteration. The basis states of the current iteration are formed using the eigenstates of the previous iteration and the basis states of the additional site of the WC.
 
 ## About the code
-This is a relatively simple code in MATLAB that implements the NRG for a flat band (constant density of states). The main function that runs the code is NRG(). For usage details on the code and usage, please see the file 'Readme.txt'.
+This is a relatively simple code in MATLAB that implements the NRG for a flat band (constant density of states). The z-component of the total spin (S_z) and the total charge (Q) can be treated as good quantum numbers. This can be used to block-diagonalize the Hamiltonian matrix for computational efficiency.
+The main function that runs the code is NRG(). For details on code usage, input parameters, and other features, please see the file 'Readme.txt'.
 
 
