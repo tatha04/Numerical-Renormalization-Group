@@ -34,7 +34,13 @@ The output file out.dat prints the renormalized eigen-energies for each iteratio
 
 NRG can also be used to calculate the impurity contribution to themodynamic quantities such as the magnetic susceptibility, entropy and specific heat. The following graphs plots these quantities as a function of temperature for the Kondo model for Kondo coupling Jk = 0.2. 
 
+![](./Plots/Tchi.png)
+![](./Plots/S.png)
+![](./Plots/Cv.png)
+
 Additionally, one can slo compute expectation values of impurity operators. As an example, the following graph plots the expectation value of the operator <S1.S2> for the two-impurity Kondo model as a function of temperature T. Plots are shown for two values of J12, keeping the Kondo couplings J_k fixed at J_k = 0.3.
+
+![](./Plots/S12.png)
 
 Note: I have used units where the bandwidth D = k_B = hbar = 1.
 
